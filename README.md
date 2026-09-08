@@ -13,3 +13,5 @@ This is a local multi-office account-balancing application based on the calculat
 The SQLite database is created automatically at `data/office-balance.sqlite`. It stores users, secure sessions, offices, percentage settings, and saved calculations. The database is intentionally ignored by Git.
 
 Each office starts with a 35% deduction setting. The percentage can be changed for an office and overridden for an individual saved calculation. Records preserve the percentage used at the time they were saved.
+
+It also features a combined account.
